@@ -1,6 +1,6 @@
 {
   "name": "tether-rawtx-builder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "pad": "2.1.0",
-    "bitcoin": "^3.0.1",
-    "bitcoin-promise": "^1.3.1",
     "bitcore-explorers": "bitpay/bitcore-explorers",
-    "dateformat": "^3.0.3",
     "decimal.js": "10.0.1"
   },
   "homepage": "https://github.com/wuminzhe/tether-rawtx-builder"

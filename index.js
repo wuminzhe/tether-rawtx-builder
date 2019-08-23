@@ -5,7 +5,7 @@ const pad = require('pad');
 const explorers = require('bitcore-explorers');
 const bitcore = explorers.bitcore;
 
-toSatoshi(btc) {
+function toSatoshi(btc) {
   return parseInt(new Decimal(btc).times(100000000).toFixed(0));
 }
 
