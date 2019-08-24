@@ -9,7 +9,7 @@ function toSatoshi(btc) {
   return parseInt(new Decimal(btc).times(100000000).toFixed(0));
 }
 
-var Output = require('./node_modules/bitcore-explorers/node_modules/bitcore-lib/lib/transaction/output.js');
+var Output = require('./node_modules/bitcore-lib/lib/transaction/output.js');
 bitcore.Transaction.prototype.addData2 = function(hex) {
   this.addOutput(new Output({
     script: bitcore.Script.buildDataOut(hex, 'hex'),
